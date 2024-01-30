@@ -1,4 +1,5 @@
 const TodoList = ({ list, remove }) => {
+
   return (
     <>
       {list?.length > 0 ? (
@@ -15,6 +16,7 @@ const TodoList = ({ list, remove }) => {
               >
                 Delete
               </button>
+
             </div>
           ))}
         </ul>
@@ -23,6 +25,9 @@ const TodoList = ({ list, remove }) => {
           <p>No task found</p>
         </div>
       )}
+
+
+      
     </>
   );
 };

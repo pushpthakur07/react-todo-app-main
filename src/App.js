@@ -20,13 +20,18 @@ const App = () => {
     });
     setTodos(newTodos);
   };
-
+  const handleClearAll = () => {
+    setTodos([]);
+  };
   return (
     <div className="App">
-      <img src="../logo192.png" alt="logo"/>
+      {/* <img src="../logo192.png" alt="logo"/> */}
       <h1>Todo App</h1>
       <TodoInput todo={todo} setTodo={setTodo} addTodo={addTodo} />
       <TodoList list={todos} remove={deleteTodo} />
+      {todos.length > 1 && ( <button onClick={handleClearAll}>Clear All</button> )}
+      
+
     </div>
   );
 };
