@@ -28,13 +28,8 @@ h1 {
 }
 
 .input-wrapper {
-  margin: 3.5rem;
+  margin: 0px 0 30px;
 }
-
-.todos-wrapper {
-  margin-bottom: 2.5rem;
-}
-
 .todo {
   display: flex;
   justify-content: center;
@@ -70,7 +65,7 @@ button {
 .add-button {
   color: #fff;
   border-left: none;
-  background: #cf972e;
+  background: lightcoral;
 }
 
 .add-button:hover {
@@ -92,9 +87,12 @@ ul {
   list-style: none;
   margin-bottom: 0px;
 }
-
+.App ul {
+  max-width: 570px;
+  margin: 0 auto 40px;
+  position: relative;
+}
 li {
-  width: 450px;
   padding: 0.85em;
   text-align: left;
   margin-bottom: 0.5rem;
@@ -103,14 +101,76 @@ li {
   transition: all 0.3s ease-out;
   border-left: 5px solid #cf972e;
 }
-
+.edit-popup {
+  width: 100%;
+  height: 100%;
+}
+.edit-popup_inr {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 30px;
+}
+.edit-popup_inr button {
+  margin: 20px 0 0;
+  color: #fff;
+  background-color: lightcoral;
+}
+.edit-popup:before {
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px);
+  background: rgba(0,0,0,.5);
+}
 li:last-child {
   margin-bottom: 0px;
 }
-
+.App ul li {
+  background: lightcoral;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  box-shadow: 0 5px 10px lightslategrey;
+}
+.rgt_btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn button {
+  width: auto;
+  border: none;
+  height: auto;
+  padding: 0;
+  margin: 0 5px;
+}
+.btn svg {
+  width: 20px;
+}
+.feather-edit{
+  stroke:black;
+  stroke-width:1px;
+}
 .empty {
   font-size: 20px;
   font-weight: 400;
   color: #cf972e;
   letter-spacing: 0.2rem;
+}
+.edit-popup_inr input[type="text"] {
+  font-size: 14px;
+}
+.task_nm {
+  text-shadow: 1px 1px lightseagreen;
+  letter-spacing: 2px;
+  font-size: 18px;
 }
