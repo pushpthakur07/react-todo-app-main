@@ -1,6 +1,6 @@
 # Getting Started with Create React App
+![image](https://github.com/pushpthakur07/react-todo-app-main/assets/153160002/846cd522-a4fb-4407-8e86-e55f352523c3)
 
-![alt text](./public/app.gif "React Todo App")
 
 You can read step by step tutorial [here](https://medium.com/oli-systems/react-todo-app-tutorial-e935fe716179).
 
