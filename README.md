@@ -1,6 +1,9 @@
 # Getting Started with Create React App
+![image](https://github.com/pushpthakur07/react-todo-app-main/assets/153160002/9d7c8a96-1b6b-46b6-8da8-7a74faf78652)
 
-![alt text](./public/app.gif "React Todo App")
+
+![image](https://github.com/pushpthakur07/react-todo-app-main/assets/153160002/846cd522-a4fb-4407-8e86-e55f352523c3)
+
 
 You can read step by step tutorial [here](https://medium.com/oli-systems/react-todo-app-tutorial-e935fe716179).
 
@@ -17,6 +20,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `See demo`
+https://pushp-react-todo-app.netlify.app/
 
 ### `npm run build`
 
