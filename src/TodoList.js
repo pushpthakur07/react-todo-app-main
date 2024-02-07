@@ -8,6 +8,7 @@ const TodoList = ({ list, remove, editTodo, editedTodo, cancelEdit, editIndex, s
           
             <div className="edit-popup">
             <div className="edit-popup_inr">
+            <h2>Update Task</h2>
               <input
                 type="text"
                 placeholder="...Update Task"
@@ -15,7 +16,7 @@ const TodoList = ({ list, remove, editTodo, editedTodo, cancelEdit, editIndex, s
                 onChange={(e) => setEditedTodo(e.target.value)}
               />
               <button onClick={() => updateTodo()}>Update</button>
-              <button onClick={() => cancelEdit()}>Cancel</button>
+              <button className="cross_icn" onClick={() => cancelEdit()}>x</button>
               </div></div>
             
           ) : (
