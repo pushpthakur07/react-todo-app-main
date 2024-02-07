@@ -174,3 +174,26 @@ li:last-child {
   letter-spacing: 2px;
   font-size: 18px;
 }
+.edit-popup_inr h2 {
+  color: #000;
+  font-size: 30px;
+  padding: 0 0 10px;
+}
+button.cross_icn {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  border-radius: 50%;
+  border-color: green;
+}
+button.cross_icn {
+  position: absolute;
+  top: -30px;
+  right: -8px;
+  border-radius: 50%;
+  border-color: green;
+  width: auto;
+  padding: 2px 8px;
+  letter-spacing: 0;
+  font-size: 18px;
+}
