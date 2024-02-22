@@ -157,9 +157,20 @@ li:last-child {
   width: 20px;
 }
 .feather-edit{
-  stroke:black;
+  stroke:#fff;
   stroke-width:1px;
 }
+.delete_icnn g{
+  fill: #fff;
+}
+.feather-edit:hover,.feather-edit:hover path{
+  stroke:#44c0b6;
+}
+.delete_icnn:hover g{
+  fill: #44c0b6;
+}
+
+
 .empty {
   font-size: 20px;
   font-weight: 400;
